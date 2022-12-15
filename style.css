@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+#container{
+    width: 725px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+    align-content: center;
+}
+
 h1{
     text-align: center;
     font-size: 50px;
@@ -14,20 +22,14 @@ img{
     width: 150px;
 }
 
-#container{
-    width: 725px;
-    height: 700px;
-    display: inline-block;
-    justify-content: space-evenly;
-    background-color: beige;
-    align-content: center;
-}
-
 .row1{
     height: 25%;
     width: 90%;
     background-color: rgb(86, 137, 230);
-    margin: 20px 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 
@@ -35,12 +37,18 @@ img{
     height: 25%;
     width: 90%;
     background-color: rgb(214, 97, 179);
-    margin: 20px 30px;
+    margin: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 20px;
 }
 
 .row3{
     height: 25%;
     width: 90%;
     background-color: #fff;
-    margin: 20px 30px;
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
 }
